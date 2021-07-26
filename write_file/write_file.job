@@ -1,6 +1,0 @@
-type=command
-
-command = echo "test" > ${file.name}
-command.1 = echo "write file success!"
-
-retries=1
