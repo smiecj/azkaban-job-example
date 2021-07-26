@@ -1,0 +1,6 @@
+type=command
+
+command=sh write_file.sh "test" ${tmp.file.path}
+command.1=echo "write file success!"
+
+retries=1

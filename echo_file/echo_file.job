@@ -1,0 +1,8 @@
+type=command
+
+command = cat ${file.name}
+command.1 = echo "echo file success!"
+command.2 = echo "file author: ${file.author}"
+
+retries=1
+dependencies=write_file
