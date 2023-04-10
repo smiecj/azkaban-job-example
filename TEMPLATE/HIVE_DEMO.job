@@ -1,0 +1,3 @@
+type=command
+
+command=sh hive.sh ${hive.server} ${sql.file}

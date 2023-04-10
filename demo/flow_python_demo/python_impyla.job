@@ -1,0 +1,9 @@
+type=flow
+
+job.name=python_impyla
+flow.name=PYTHON_DEMO
+
+python.file=../demo/flow_python_demo/impyla.py
+config.file=../system.properties
+
+failure.emails=

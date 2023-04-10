@@ -1,0 +1,8 @@
+type=flow
+
+job.name=hive_connect
+flow.name=HIVE_DEMO
+
+sql.file=../demo/flow_hive_demo/hive_sql.sql
+
+failure.emails=
