@@ -1,7 +1,7 @@
 type=flow
 
 job.name=impala_connect
-flow.name=IMPALA_DEMO
+flow.name=TEMPLATE_IMPALA_DEMO
 
 sql.file=../demo/flow_impala_demo/impala.sql
 

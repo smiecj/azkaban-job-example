@@ -1,8 +1,8 @@
 type=flow
 
 job.name=hive_connect
-flow.name=HIVE_DEMO
+flow.name=TEMPLATE_HIVE_DEMO
 
-sql.file=../demo/flow_hive_demo/hive_sql.sql
+sql.file=../demo/flow_hive_demo/hive.sql
 
 failure.emails=

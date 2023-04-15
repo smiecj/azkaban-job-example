@@ -1,0 +1,11 @@
+type=flow
+
+env.yarn_job_name = "pyspark app"
+
+job.name=python_pyspark
+flow.name=TEMPLATE_PYTHON_DEMO
+
+python.file=../demo/flow_python_demo/pyspark_demo.py
+config.file=../system.properties
+
+failure.emails=

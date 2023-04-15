@@ -1,3 +1,0 @@
-type=command
-
-command=${python3_bin} ${python.file} ${config.file}
