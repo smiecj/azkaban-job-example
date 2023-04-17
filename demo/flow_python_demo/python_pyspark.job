@@ -1,6 +1,7 @@
 type=flow
 
-env.yarn_job_name = "pyspark app"
+env.yarn_job_name="pyspark app"
+env.SPARK_HOME=
 
 job.name=python_pyspark
 flow.name=TEMPLATE_PYTHON_DEMO

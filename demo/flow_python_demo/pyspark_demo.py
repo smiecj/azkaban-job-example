@@ -1,5 +1,10 @@
 # -*- coding: UTF-8 -*-
 
+# findspark: for load SPARK_HOME
+# https://sparkbyexamples.com/pyspark/pyspark-py4j-protocol-py4jerror-org-apache-spark-api-python-pythonutils-jvm/
+import findspark
+findspark.init()
+
 from pyspark.sql import SparkSession
 from common import ConfigParser
 
